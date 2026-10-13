@@ -1,0 +1,20 @@
+{
+  "model": "models/base",
+  "train": true,
+  "fine_tune_type": "lora",
+  "data": "data/prepared",
+  "adapter_path": "adapters/qa",
+  "batch_size": 1,
+  "iters": 200,
+  "num_layers": 4,
+  "learning_rate": 0.0001,
+  "max_seq_length": 512,
+  "grad_checkpoint": true,
+  "mask_prompt": true,
+  "steps_per_report": 10,
+  "steps_per_eval": 50,
+  "val_batches": 10,
+  "save_every": 50,
+  "seed": 42,
+  "lora_parameters": {"rank": 8, "scale": 16.0, "dropout": 0.0}
+}

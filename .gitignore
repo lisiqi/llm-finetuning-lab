@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+data/
+models/
+adapters/
+runs/
+.DS_Store
+.env
+build/
+dist/
+environment.lock.txt
